@@ -8,5 +8,6 @@ if (environment.production) {
   enableProdMode();
 }
 
+/** Como se comentan en los apuntes, este archivo se utiliza para enlazar el modulo raíz con la aplicación en Angular */
 platformBrowserDynamic().bootstrapModule(AppModule)
   .catch(err => console.log(err));

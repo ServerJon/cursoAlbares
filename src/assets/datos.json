@@ -1,0 +1,15 @@
+{
+    "catSelect": "Todas",
+    "categorias": [
+        {"categoria": "Música", "numPalabras": 2},
+        {"categoria": "Teatro", "numPalabras": 2}
+    ],
+    "delay": 75,
+    "palabras": [
+        {"palabra": "Butaca", "pista": "Donde te sientas", "categoria": "Teatro"},
+        {"palabra": "Rock", "pista": "AC DC", "categoria": "Música"},
+        {"palabra": "Trompeta", "pista": "Se sopla", "categoria": "Música"},
+        {"palabra": "Ticket", "pista": "Billete para entrar a un espectáculo", "categoria": "Teatro"}
+    ]
+
+}

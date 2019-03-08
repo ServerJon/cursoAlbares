@@ -1,14 +1,20 @@
+<!-- Lo normal en este archivo es para colocar todo el css y js que necesitemos cargar, como los necesarios para una plantilla
+que queramos colocar -->
 <!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
   <title>CursoAlbares</title>
+  <!-- Esta lina de codigo con la etiqueta base se coloca pra que angular reconozca como realizar sus ruteos -->
   <base href="/">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body>
+  <!-- Si accedeis al app.component.ts vereis que esta etiqueta pertenece a ese componente. Como se comenta en el pdf, el 
+  app.component es el primer componente que se carga. Este es el motivo  -->
   <app-root></app-root>
 </body>
+  <!-- Aunque no es común, podremos modificar algo del index, como colocar un footer que se vea en todas las vistas. -->
 </html>

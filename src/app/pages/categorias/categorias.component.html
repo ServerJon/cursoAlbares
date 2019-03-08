@@ -1,0 +1,17 @@
+<table class="table table-condensed">
+  <thead>
+    
+    <tr >
+      <th style="width: 2.16%;" ></th>
+      <th style="width: 65%;" >Categor&iacute;a</th>
+      <th style="width: 2.16%;" >Nº Palabras</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let categoria of categorias" style="min-height: 64px;" >
+      <td style="width: 2.16%;"></td>
+      <td style="width: 65%; vertical-align:middle;"><a routerLink="/palabras/{{categoria.categoria}}">{{ categoria.categoria }}</a></td>
+      <td style="width: 2.16%; vertical-align: middle;" ><a>{{categoria.numPalabras}}</a></td>
+    </tr>
+  </tbody>
+</table>
