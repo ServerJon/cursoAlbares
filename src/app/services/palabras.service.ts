@@ -53,9 +53,6 @@ export class PalabrasService {
    * 
    * return this.http.get('Url donde queremos hacer la petición', { headers: headers });
    * 
-   *  handleErrors(error: Response) {
-        return throwError(error);
-      }
    */
 
   /**
